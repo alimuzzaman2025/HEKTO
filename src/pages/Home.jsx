@@ -6,6 +6,7 @@ import Featureproducts from '../components/Featureproducts'
 import UniqueFeatureSofa from '../components/UniqueFeatureSofa'
 import TrendingProducts from '../components/TrendingProducts'
 import Footer from '../components/Footer'
+import Whatshopex from '../components/Whatshopex'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
     <Navbar/>
     <Banner/>
     <Featureproducts/>
+    <Whatshopex/>
     <UniqueFeatureSofa/>
     <TrendingProducts/>
     <Footer/>

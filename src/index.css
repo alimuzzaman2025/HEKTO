@@ -21,6 +21,12 @@
 
 
 
+#banner.slick-dots{
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
+}
 .slick-dots{
   position: absolute;
   left: 50%;

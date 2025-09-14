@@ -42,7 +42,7 @@ const Banner = () => {
           
           
   return (
-    <section>
+    <section style={{position:"relative"}} id='banner'>
         <Slider {...settings}>
             <div className=''>
                 <img src={Ban} alt="" />
