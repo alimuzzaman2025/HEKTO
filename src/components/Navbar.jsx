@@ -12,12 +12,12 @@ const Navbar = () => {
                 </div>
                 <div className='w-2/4 '>
                     <ul className='flex gap-5'>
-                        <li><select name="" id=""><option value="">Home</option></select></li>
-                        <li>Pages</li>
-                        <li>Products</li>
-                        <li>Blog</li>
-                        <li>Shop</li>
-                        <li>Contact</li>
+                        <li><a href="#"><select name="" id=""><option value="">Home</option></select></a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div className='w-1/4 items-center'>
