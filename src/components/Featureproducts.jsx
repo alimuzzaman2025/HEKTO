@@ -46,15 +46,15 @@ const Featureproducts = () => {
     }
 
     return (
-        <div className='py-36'>
+        <div className='py-36 '>
             <Container>
                 <h2 className='font-josefin font-bold text-[36px] text-[#262626] text-center pb-10'>Feature Products</h2>
 
                 <div className=''>
                     <Slider {...ProductSlice}>
-
+                       
                         {data.map((item) => (
-
+                            
                             <div className='w-[24%] pr-8'>
                                 <div className='relative group '>
 
@@ -79,6 +79,7 @@ const Featureproducts = () => {
                                     <p className='text-[#fff]'>${item.price}</p>
                                 </div>
                             </div>
+                           
                         ))}
                     </Slider>
                 </div>
