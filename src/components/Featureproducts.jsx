@@ -71,12 +71,12 @@ const Featureproducts = () => {
                                     </div>
                                 </div>
 
-                                <div className='flex justify-between bg-[#2F1AC4] p-4 py-6'>
-                                    <div className='text-[#fff]'>
-                                        <h2>{item.title}</h2>
-                                        <p>Black</p>
+                                <div className='bg-[#2F1AC4] p-3 py-6'>
+                                    <div className='flex justify-between items-center'>
+                                        <h2 className='text-[#fff]'>{item.title}</h2>
+                                        <p className='text-[yellow] text-[14px] font-josefin font-normal'>$ {item.price}</p>
                                     </div>
-                                    <p className='text-[#fff]'>${item.price}</p>
+                                        <p className='text-[red] text-[16px] font-josefin font-normal'>Stock  {item.stock}</p>
                                 </div>
                             </div>
                            
